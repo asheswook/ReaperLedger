@@ -1,0 +1,11 @@
+name: ReaperLedger
+version: '1.0-RC3'
+main: ee.jwl.reaperLedger.Main
+api-version: '1.18'
+commands:
+  death:
+    description: Teleport to your death point
+    usage: /<command>
+    permission: reaperLedger.command.death
+    aliases:
+    - d
